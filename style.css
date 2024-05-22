@@ -1,0 +1,41 @@
+body {
+    height: 2000px;
+    width: 100%;
+    background-color: black;
+    color: orange;
+    font-family: Helvetica;
+    font-size: 30px;
+}
+ 
+.container {
+    height:500px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    height:60px;
+    width: 60px;
+    border-radius: 100%;
+    font-size: 2rem;
+}
+
+.form-group {
+    padding: 30px;
+}
+
+.alert {
+    color: red;
+}
+
+#screenNumber {
+    font-size: 3rem;
+    color: purple;
+}
+
+.userInput {
+    height:35px;
+    width: 130px;
+}

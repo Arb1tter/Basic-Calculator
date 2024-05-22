@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>CALCULATOR</h2>
+
+            <div class="form-group">
+                <label for="input1">Input #1:</label>
+                <input id="input1" type="number" class="userInput"></input>
+            </div>
+
+            <div class="operations form-group">
+                <div>Select an Operation:</div>
+                <input id="plusOperator" type="radio" class="button" name="operator" value="+">+</input>
+                <input id="minusOperator" type="radio" class="button" name="operator" value="-">-</input>
+                <input id="multiplicationOperator" type="radio" class="button" name="operator" value="*">x</input>
+                <input id="divisionOperator" type="radio" class="button" name="operator" value="/">÷</input>
+            </div>
+
+            <div class="form-group">
+                <label for="input2">Input #2:</label>
+                <input id="input2" type="number" class="userInput"></input>
+            </div>
+            
+            <div class="form-group">
+            <button id="resultOperator" type="button" class="button equalsButton">=</button>
+            </div>
+
+            <div class="form-group result">
+            <div id="output">Result: <span id="screenNumber">0</span></div>
+            
+            <div class="alert" style="display:none;">Incorrect input/operation!</div>
+            </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
